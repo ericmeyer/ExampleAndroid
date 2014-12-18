@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'robolectric'
 
 buildscript {
     repositories {
@@ -6,6 +7,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'org.robolectric:robolectric-gradle-plugin:0.14.1'
     }
 }
 
@@ -19,8 +21,22 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    sourceSets {
+        androidTest.setRoot('src/test')
+    }
 }
 
 dependencies {
+    testCompile 'junit:junit:4.11'
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+    }
+    testCompile 'org.robolectric:robolectric:2.3'
+    androidTestCompile 'junit:junit:4.11'
+    androidTestCompile 'org.robolectric:robolectric:2.3'
 }
