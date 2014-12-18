@@ -3,6 +3,8 @@
  * Android Studio 1.0.1
  * Gradle 2.2.1
 
+See [here](http://tools.android.com/tech-docs/new-build-system/version-compatibility) for version compatibility.
+
 # Explanation of Parts
 
  * **Make sure to open the `AndroidApp` project**
