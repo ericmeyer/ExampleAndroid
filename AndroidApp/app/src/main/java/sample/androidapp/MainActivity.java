@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import javamodule.Foo;
+import sample.androidlibrary.Bar;
 
 
 public class MainActivity extends Activity {
@@ -18,7 +19,10 @@ public class MainActivity extends Activity {
 
         TextView textView = (TextView) findViewById(R.id.example_text_field);
         Foo foo = new Foo();
-        textView.setText("Set in MainActivity: " + String.valueOf(foo.getNumber()));
+        Bar bar = new Bar();
+        String four = String.valueOf(foo.getNumber());
+        String five = String.valueOf(bar.getNumber());
+        textView.setText("Set in MainActivity: " + four + " " + five);
     }
 
 

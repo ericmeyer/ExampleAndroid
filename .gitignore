@@ -1,9 +1,15 @@
 .gradle
+.DS_Store
+
 AndroidApp/local.properties
 AndroidApp/.idea/workspace.xml
 AndroidApp/.idea/libraries
-.DS_Store
 AndroidApp/build
+
+AndroidLibrary/local.properties
+AndroidLibrary/.idea/workspace.xml
+AndroidLibrary/.idea/libraries
+AndroidLibrary/build
 
 JavaModule/.idea/
 JavaModule/JavaModule.iml

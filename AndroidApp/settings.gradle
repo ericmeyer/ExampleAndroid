@@ -1,3 +1,4 @@
-include ':app', ':JavaModule'
+include ':app', ':JavaModule', ':AndroidLibrary'
 project(':JavaModule').setProjectDir(new File(settingsDir, '../JavaModule'))
+project(':AndroidLibrary').setProjectDir(new File(settingsDir, '../AndroidLibrary'))
 
