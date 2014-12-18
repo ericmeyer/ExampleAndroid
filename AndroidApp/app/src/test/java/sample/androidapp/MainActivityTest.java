@@ -13,6 +13,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 @Config(emulateSdk = 18)
 @RunWith(RobolectricTestRunner.class)
+
+// See http://blog.blundell-apps.com/how-to-run-robolectric-junit-tests-in-android-studio/
+// for running in the IDE. Otherwise, run from the command line.
+
 public class MainActivityTest {
 
     @Test
