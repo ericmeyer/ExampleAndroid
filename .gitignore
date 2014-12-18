@@ -1,0 +1,6 @@
+.gradle
+AndroidApp/local.properties
+AndroidApp/.idea/workspace.xml
+AndroidApp/.idea/libraries
+.DS_Store
+AndroidApp/build
