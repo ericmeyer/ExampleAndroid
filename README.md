@@ -30,3 +30,9 @@
  * ./AndroidApp/build.gradle
  * ./AndroidLibrary/build.gradle
  * ./JavaModule/build.gradle
+
+## Running the Tests
+
+ * `gradle test` from `AndroidApp` runs the tests for all three projects
+ * `gradle test` from `AndroidLibrary` runs only those tests
+ * `gradle test` from `JavaModule` runs only those tests
