@@ -4,3 +4,7 @@ AndroidApp/.idea/workspace.xml
 AndroidApp/.idea/libraries
 .DS_Store
 AndroidApp/build
+
+JavaModule/.idea/
+JavaModule/JavaModule.iml
+JavaModule/build/

@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import javamodule.Foo;
+
 
 public class MainActivity extends Activity {
 
@@ -15,7 +17,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         TextView textView = (TextView) findViewById(R.id.example_text_field);
-        textView.setText("Set in MainActivity");
+        Foo foo = new Foo();
+        textView.setText("Set in MainActivity: " + String.valueOf(foo.getNumber()));
     }
 
 
