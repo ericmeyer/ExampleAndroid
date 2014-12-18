@@ -26,7 +26,7 @@
 ## Useful Files to Look At
 
  * [AndroidApp/settings.gradle](AndroidApp/settings.gradle)
- * [AndroidApp/app/build.gradle](AndroidApp/app/build)
+ * [AndroidApp/app/build.gradle](AndroidApp/app/build.gradle)
  * [AndroidApp/build.gradle](AndroidApp/build.gradle)
  * [AndroidLibrary/build.gradle](AndroidLibrary/build.gradle)
  * [JavaModule/build.gradle](JavaModule/build.gradle)
