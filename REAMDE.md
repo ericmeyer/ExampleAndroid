@@ -22,3 +22,11 @@
 
  * `JavaModule` is a pure Java module.
  * It does not depend on other projects.
+
+## Useful Files to Look At
+
+ * ./AndroidApp/settings.gradle
+ * ./AndroidApp/app/build.gradle
+ * ./AndroidApp/build.gradle
+ * ./AndroidLibrary/build.gradle
+ * ./JavaModule/build.gradle
